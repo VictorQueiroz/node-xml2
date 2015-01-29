@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json node-xml2@1.0.0 No description
+5 warn package.json node-xml2@1.0.0 No repository field.
+6 warn package.json node-xml2@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/altum/Downloads/node-xml2', [ 'nan' ] ]
+9 info preinstall node-xml2@1.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping nan@^1.6.1 /home/altum/Downloads/node-xml2
+12 silly resolved []
+13 info build /home/altum/Downloads/node-xml2
+14 verbose linkStuff [ false, false, false, '/home/altum/Downloads' ]
+15 info linkStuff node-xml2@1.0.0
+16 verbose linkBins node-xml2@1.0.0
+17 verbose linkMans node-xml2@1.0.0
+18 verbose rebuildBundles node-xml2@1.0.0
+19 verbose rebuildBundles [ 'glob', 'nan' ]
+20 verbose rebuild bundle /home/altum/Downloads/node-xml2/node_modules/glob
+21 info build /home/altum/Downloads/node-xml2/node_modules/glob
+22 info preinstall glob@4.3.5
+23 verbose linkStuff [ false,
+23 verbose linkStuff   false,
+23 verbose linkStuff   false,
+23 verbose linkStuff   '/home/altum/Downloads/node-xml2/node_modules' ]
+24 info linkStuff glob@4.3.5
+25 verbose linkBins glob@4.3.5
+26 verbose linkMans glob@4.3.5
+27 verbose rebuildBundles glob@4.3.5
+28 verbose rebuildBundles [ 'inflight', 'inherits', 'minimatch', 'once' ]
+29 info install glob@4.3.5
+30 info postinstall glob@4.3.5
+31 info install node-xml2@1.0.0
+32 verbose unsafe-perm in lifecycle true
+33 info node-xml2@1.0.0 Failed to exec install script
+34 error node-xml2@1.0.0 install: `node-gyp rebuild`
+34 error Exit status 1
+35 error Failed at the node-xml2@1.0.0 install script.
+35 error This is most likely a problem with the node-xml2 package,
+35 error not with npm itself.
+35 error Tell the author that this fails on your system:
+35 error     node-gyp rebuild
+35 error You can get their info via:
+35 error     npm owner ls node-xml2
+35 error There is likely additional logging output above.
+36 error System Linux 3.16.0-29-generic
+37 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+38 error cwd /home/altum/Downloads/node-xml2
+39 error node -v v0.10.33
+40 error npm -v 1.4.28
+41 error code ELIFECYCLE
+42 verbose exit [ 1, true ]
